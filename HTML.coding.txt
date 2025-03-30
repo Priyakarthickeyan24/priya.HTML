@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #004080;
+            color: white;
+            padding: 1em;
+            font-size: 24px;
+        }
+        nav {
+            background: #0066cc;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .footer {
+            background: #004080;
+            color: white;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>Welcome to Our College</header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#info">Information</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Us</h2>
+            <p>Welcome to our St Joseph's College Of Arts And Science</p>
+        </div>
+        <div id="courses" class="section">
+            <h2>Our Courses</h2>
+            <p>We offer a variety of undergraduate and postgraduate programs.</p>
+        </div>
+        <div id="info" class="section">
+            <h2>College Information</h2>
+            <p>Get details about admissions, faculty, and campus life.</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: St Joseph's College@.edu | Phone: 123-456-7890</p>
+        </div>
+    </div>
+    <footer class="footer">
+        &copy; 2025 College Name. All rights reserved.
+    </footer>
+</body>
+</html>
