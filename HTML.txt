@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Mahatma Gandhi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+        .quote {
+            font-style: italic;
+            color: #777;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tribute to Mahatma Gandhi</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_Gandhi.jpg" alt="Mahatma Gandhi">
+        <p>Mahatma Gandhi (1869-1948) was an Indian leader who championed non-violent resistance and played a key role in India's independence movement. His principles of truth and nonviolence inspired civil rights movements worldwide.</p>
+        <p>Gandhi's philosophy of 'Satyagraha' emphasized peaceful protest and self-discipline. His legacy continues to inspire millions in the pursuit of justice and equality.</p>
+        <p class="quote">“Be the change that you wish to see in the world.”</p>
+    </div>
+</body>
+</html>
